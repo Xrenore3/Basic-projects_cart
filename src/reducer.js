@@ -31,13 +31,19 @@ const reducer = (state, action) => {
     }
     case "GET_TOTALS": {
       const totalAmount = state.cart.length;
-      let  totalPrice = state.cart.reduce((cartTotal, cartItem) => {
+      let totalPrice = state.cart.reduce((cartTotal, cartItem) => {
         const { price, amount } = cartItem;
         return (cartTotal += price * amount);
       }, 0);
       totalPrice = parseFloat(totalPrice.toFixed(2))
 
       return { ...state, amount: totalAmount, total: totalPrice };
+    }
+    case 'LOADING': {
+      return { ...state, loading: true }
+    }
+    case 'DISPLAY_ITEMS': {
+      return { ...state, cart: action.playload,loading: false }
     }
     default:
       return state;
