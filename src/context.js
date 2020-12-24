@@ -25,18 +25,14 @@ const AppProvider = ({ children }) => {
   const decrease = (id) => {
     dispatch({ type: "DECREASE", id });
   };
-  const fetchData = async () => {
-    dispatch({type:'LOADING'})
-    const response = await fetch(url)
-    const cart = await response.json();
-    dispatch({type: 'DISPLAY_ITEMS', playload:cart})
+  // const fetchData = async () => {
+  //   dispatch({ type: 'LOADING' })
+  //   const response = await fetch(url)
+  //   const cart = await response.json();
+  //   dispatch({ type: 'DISPLAY_ITEMS', playload: cart })
+  // }
 
 
-  }
-
-  useEffect(()=>{
-    fetchData()
-  },[])
   useEffect(() => {
     dispatch({ type: "GET_TOTALS" });
   }, [state.cart]);

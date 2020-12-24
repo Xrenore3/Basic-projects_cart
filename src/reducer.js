@@ -43,7 +43,7 @@ const reducer = (state, action) => {
       return { ...state, loading: true }
     }
     case 'DISPLAY_ITEMS': {
-      return { ...state, cart: action.playload,loading: false }
+      return { ...state, cart: action.playload, loading: false }
     }
     default:
       return state;
