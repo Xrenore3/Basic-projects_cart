@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Basic-projects_cart/static/css/main.8db4b5e8.chunk.css",
+    "main.js": "/Basic-projects_cart/static/js/main.49c67a16.chunk.js",
+    "main.js.map": "/Basic-projects_cart/static/js/main.49c67a16.chunk.js.map",
+    "runtime-main.js": "/Basic-projects_cart/static/js/runtime-main.52a25a1b.js",
+    "runtime-main.js.map": "/Basic-projects_cart/static/js/runtime-main.52a25a1b.js.map",
+    "static/js/2.bf23568a.chunk.js": "/Basic-projects_cart/static/js/2.bf23568a.chunk.js",
+    "static/js/2.bf23568a.chunk.js.map": "/Basic-projects_cart/static/js/2.bf23568a.chunk.js.map",
+    "index.html": "/Basic-projects_cart/index.html",
+    "precache-manifest.14f41b3423e938e6b3ea792b1f769ab2.js": "/Basic-projects_cart/precache-manifest.14f41b3423e938e6b3ea792b1f769ab2.js",
+    "service-worker.js": "/Basic-projects_cart/service-worker.js",
+    "static/css/main.8db4b5e8.chunk.css.map": "/Basic-projects_cart/static/css/main.8db4b5e8.chunk.css.map",
+    "static/js/2.bf23568a.chunk.js.LICENSE.txt": "/Basic-projects_cart/static/js/2.bf23568a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52a25a1b.js",
+    "static/js/2.bf23568a.chunk.js",
+    "static/css/main.8db4b5e8.chunk.css",
+    "static/js/main.49c67a16.chunk.js"
+  ]
+}
